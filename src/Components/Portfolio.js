@@ -57,9 +57,9 @@ class Portfolio extends Component {
 export default Portfolio; */
 const Portfolio = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#000524" }}>
       <Fade left duration={1000} distance="40px">
-        <Container sx={{ pt: 15 }} id="project">
+        <Container sx={{ py: 15 }} id="project">
           <Typography
             sx={{ color: "orangered" }}
             variant="h6"
